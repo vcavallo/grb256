@@ -76,6 +76,11 @@ hi(0, "CursorLine", { bg = "#121212" })
 hi(0, "CursorColumn", { bg = "#121212" })
 hi(0, "ColorColumn", { bg = "#121212" })
 
+-- LSP reference highlights (document_highlight)
+hi(0, "LspReferenceText", { bg = "#1c1c1c" })
+hi(0, "LspReferenceRead", { bg = "#1c1c1c" })
+hi(0, "LspReferenceWrite", { bg = "#1c1c1c", underline = true })
+
 -- grb256: Visual
 hi(0, "Visual", { bg = "#262D51" })
 hi(0, "VisualNOS", { bg = "#262D51" })
